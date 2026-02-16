@@ -1,14 +1,22 @@
-// import logo from './logo.svg';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-
-import Navbar from './nav_bar';
+import Navbar from './nav_bar'; // Ensure using the correct filename case
+// import Home from './Home';
+// import About from './About';
+// import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        {/* <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes> */}
+      </div>
+    </Router>
   );
 }
-
 export default App;
