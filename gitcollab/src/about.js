@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 
 const about = () => {
     return (
@@ -45,12 +45,12 @@ const about = () => {
                         <p className="member-role">Home_Page_Designer</p>
                     </div>
                     <div className="team-member">
-                        <div className="member-avatar">🚀</div>
+                        <div className="member-avatar">👨‍💻</div>
                         <h4 className="member-name">Kaviyashree</h4>
                         <p className="member-role">About_Page_Designer</p>
                     </div>
                     <div className="team-member">
-                        <div className="member-avatar">🚀</div>
+                        <div className="member-avatar">👨‍💻</div>
                         <h4 className="member-name">Deeksha</h4>
                         <p className="member-role">Contact_Page_Designer</p>
                     </div>
