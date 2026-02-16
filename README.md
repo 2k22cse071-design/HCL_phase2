@@ -1,2 +1,1 @@
-hi
-g
+Collab Project on React for GitHub branching understanding
