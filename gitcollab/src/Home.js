@@ -18,7 +18,7 @@ const Home = () => {
                     <div className="feature-icon">🚀</div>
                     <h3 className="feature-title">Fast & Efficient</h3>
                     <p className="feature-description">
-                        Experience lightning-fast performance with our optimized workflows designed for modern development teams.
+                        Experience lightning fast performance with our optimized workflows designed for modern development teams.
                     </p>
                 </div>
                 <div className="feature-card">
